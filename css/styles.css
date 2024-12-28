@@ -1,4 +1,4 @@
-/* Загальні стилі */
+/* body */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -12,6 +12,9 @@ body {
 a {
   text-decoration: none;
   color: #2E2F42;
+  width: 115px;
+  height: 24px;
+  padding-left: 156px;
 
 }
 
@@ -19,9 +22,23 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 261px;
+  height: 24px;
+  padding-right: 76px;
 }
 
-/* Хедер */
+.nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  width: 153px;
+  height: 24px;
+}
+
+/* header */
 header {
   display: flex;
   justify-content: space-between;
@@ -54,7 +71,7 @@ nav ul {
 }
 
 /* Головний блок */
-main section:first {
+main section:first-of-type {
   text-align: center;
   background-color: #2E2F42;
   color: #FFFFFF;
@@ -67,14 +84,24 @@ main section:first {
 }
 
 
-main section:first h1 {
+main section:first-of-type h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700px;
   font-size: 56px;
-  font-weight: bold;
-  margin-bottom: 20px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  width: 496px;
+  height: 120px;
+  margin-top: 188px;
+  margin-left: 472px;
+  gap: 0px;
+  opacity: 0px;
+
 }
 
-
-main section:first button {
+main section:first-of-type button {
   background-color: #4D5AE5;
   color: #FFFFFF;
   border: none;
@@ -83,7 +110,7 @@ main section:first button {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  margin-top: 356px;
+  margin-top: 48px;
 }
 
 main section:first-of-type button:hover {
@@ -102,6 +129,7 @@ main section:nth-of-type(2) ul {
   left: 156px;
   gap: 0px;
   opacity: 0px;
+
 }
 
 main section:nth-of-type(2) li {
@@ -147,6 +175,7 @@ main section:nth-of-type(3) li {
   padding: 20px;
   width: 264px;
   height: 380px;
+
 }
 
 main section:nth-of-type(3) img {
@@ -185,6 +214,10 @@ footer {
   background-color: #2E2F42;
   color: #FFFFFF;
   padding: 40px 20px;
+
+}
+
+.footer section {
   width: 1440px;
   height: 312px;
   top: 1748px;
@@ -196,6 +229,7 @@ footer a {
   font-weight: 700;
   font-size: 18px;
   color: #4D5AE5;
+
 }
 
 footer p {
